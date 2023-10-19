@@ -2,6 +2,18 @@
 
 ![Alt Text](https://github.com/othmamo/GPGPU_Project/blob/main/images/output_gifs/penguin_fast_detection.gif)
 
+This project aims to implement a simple object detector capable of processing videos and adding a red bounding box around detected objects.
+
+## Project Insights
+
+The CPU and naive GPU implementations initially suffered from poor performance. However, through optimization, we achieved a remarkable 42x improvement over the initial CPU implementation.
+
+| Implementation      | Frame Rate |
+|---------------------|------------|
+| CPU                 | 0.34       |
+| Naive GPU           | 1.38       |
+| Optimized GPU       | 17.29      |
+
 ## Authors
   - Moustapha Diop
   - Mathieu Rivier
